@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-container">
+            <h1>* The Weather *</h1>
+            <div class="weather-details">
+                <div class="weather-detail">
+                    <div class="temp">
+                        <p id="weather-temp"> -- &#8451</p>
+                    </div>
+                    <div class="location">
+                        <h1 id="Weather-location" style="margin: 0; padding: opx"> India </h1>
+                        <h4 id="location-details"> Have a great Day </h4>
+                    </div>
+                    <div class="weather-type">
+                        <i class='fas ' id="icon" style='font-size:36px'></i>
+                        <br>
+                        <p id="weather-type-name"> Clear </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="search">
+                <input type="text" id="input-city">
+                <button id="btn">
+                    <i class="fa fa-search fa-2x right" aria-hidden="true"></i>
+                </button>
+            </div>
+            <hr>
+            <br>
+            <h2>Weather Details..</h2>
+            <p id="locationdetail" class="right"></p>
+            <br>
+            <div class="details">
+                <p class="left"> Cloudy </p>
+                <p id="cloudy" class="right">***</p>
+                <br>
+                <p class="left"> Humidity </p>
+                <p class="right" id="humidity">***</p>
+                <br>
+                <p class="left"> Wind </p>
+                <p class="right" id="wind">***</p>
+                <br>
+                <p class="left"> pressure </p>
+                <p class="right" id="presure">***</p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
